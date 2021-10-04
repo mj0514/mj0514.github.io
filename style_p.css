@@ -1,0 +1,79 @@
+body{
+	background-color: skyblue;
+}
+#Face{
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	background-color: #FBCEB1;
+	margin-left: 800px;
+	margin-top: 20px;
+	padding: 10px;
+	position: absolute;
+}
+#LHair{
+	width: 120px;
+	height: 100px;
+	background-color: black;
+	border-bottom-right-radius: 100%;
+	border-top-left-radius: 120%;
+	margin-top: -10px;
+	margin-left: -10px;
+	position: absolute;
+}
+#RHair{
+	width: 120px;
+	height: 100px;
+	background-color: black;
+	border-bottom-left-radius: 100%;
+	border-top-right-radius: 120%;
+	margin-top: -10px;
+	margin-left: 90px;
+	position: absolute;
+}
+#Lefteye{
+	width: 30px;
+	height: 10px;
+	background-color: black;
+	margin-top: 90px;
+	margin-left: 40px;
+	position: absolute;
+}
+#Righteye{
+	width: 30px;
+	height: 10px;
+	background-color: black;
+	margin-top: 90px;
+	margin-left: 130px;
+	position: absolute;
+}
+#Mouth{
+	width: 40px;
+	height: 20px;
+	background-color: red;
+	margin-top: 150px;
+	margin-left: 80px;
+	position: absolute;
+}
+#Cloth{
+	width: 220px;
+	height: 400px;
+	background-color: sandybrown;
+	margin-top: 250px;
+	margin-left: 800px;
+	position: absolute;
+}
+#Arm{
+	width: 500px;
+	height: 100px;
+	background-color: sandybrown;
+	margin-top: 20px;
+	margin-left: -130px;
+	position: absolute;
+}
+#Print{
+	width: 140px;
+	height: 140px;
+	margin-top: 120px;
+	margin-left: 40px;
+}

@@ -7,8 +7,19 @@ span{
 	padding: 0.5em 0.6em;
 	color: #FF8000;
 }
-a2{
+a{
 	color: #FFAD5B;
 	font-size: 30px;
 	font-family: 'Gluten', cursive;
+	text-decoration: none;
+}
+div{
+	position: absolute;
+	bottom: 0;
+	text-align: center;
+}
+img{
+	position: relative;
+	display: block;
+	float: left;
 }
