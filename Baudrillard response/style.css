@@ -1,0 +1,37 @@
+main{
+  text-align: center;
+}
+
+#title{
+	font-family: 'Zen Kurenaido', sans-serif;
+	font-weight: bold;
+	font-size: 50px;
+	border-bottom: 10px solid black;
+}
+
+#human{
+}
+
+#face_img{
+	width: 200px;
+	position: absolute;
+}
+
+#suit_img{
+	position: absolute;
+	width: 300px;
+	margin-left: -2.5%;
+	margin-top: 2%;
+}
+
+#text_box{
+	position: absolute: ;
+	width: 150px;
+	margin-left: 50%;
+}
+
+#Grid_container{
+	display: grid;
+	margin-top: 8%;
+	grid-template-columns:20% 20% 20% 20% 20%;
+}
