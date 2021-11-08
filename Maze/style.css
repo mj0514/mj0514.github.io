@@ -1,0 +1,86 @@
+body{
+  text-align: center;
+}
+
+#title{
+  text-align: center;
+  color: Black;
+  font-size: 40px;
+}
+
+#text1{
+  margin-top: 5%;
+  color: white;
+  font-size: 30px;
+}
+
+#text3{
+  color: black;
+  font-size: 30px;
+  margin-top: 5%;
+}
+
+#entrance_door{
+  width: 500px;
+}
+
+#room1_doors{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 5%;
+}
+
+.room1_door{
+  width: 400px;
+}
+
+#room2_doors{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 5%;
+}
+
+.room2_door{
+  width: 500px;
+}
+
+#Bottomless_hole{
+  width: 800px;
+  margin-bottom: -10%;
+}
+
+#Monster1{
+  width: 800px;
+}
+
+#room3_doors{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 5%;
+}
+
+.room3_door{
+  width: 250px;
+}
+
+#Restart_button{
+  margin-top: 5%;
+  width: 60px;
+}
+
+.Restart_message{
+  font-size: 20px;
+  font-style: bold;
+}
+
+#Restart2_button{
+  margin-top: 30%;
+  width: 60px;
+  background: dimgrey;
+}
+
+.Restart2_message{
+  font-size: 20px;
+  font-style: bold;
+  color: white;
+}
