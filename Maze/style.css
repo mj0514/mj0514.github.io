@@ -94,6 +94,18 @@ body{
   width: 100px;
 }
 
+#room5_doors{
+  margin-top: 5%;
+}
+
+.Exit_door{
+  width: 300px;
+}
+
+.Ending_light{
+  width: 200px;
+}
+
 #Restart_button{
   margin-top: 5%;
   width: 60px;
