@@ -63,20 +63,14 @@ body{
   width: 250px;
 }
 
-#room4_doors1{
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-}
-
-#room4_doors2{
+#room4_doors{
   display: flex;
   justify-content: space-around;
-  margin-top: 2%;
+  margin-top: 5%;
 }
 
 .room4_door{
-  width: 120px;
+  width: 200px;
 }
 
 #small_text{
@@ -87,8 +81,12 @@ body{
 #dog{
   position: absolute;
   display: flex;
-  margin-left: 92%;
+  margin-left: 90%;
   margin-top: -10%;
+}
+
+#dog_size{
+  width: 100px;
 }
 
 #Restart_button{
