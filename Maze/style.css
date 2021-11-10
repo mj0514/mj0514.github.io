@@ -63,14 +63,19 @@ body{
   width: 250px;
 }
 
-#room4_doors{
+#roo4_doors1{
+  display: flex;
+  flex-direction: column;
+}
+
+#room4_doors2{
   display: flex;
   justify-content: space-around;
   margin-top: 5%;
 }
 
 .room4_door{
-  width: 200px;
+  width: 120px;
 }
 
 #small_text{
