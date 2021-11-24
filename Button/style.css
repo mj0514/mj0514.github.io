@@ -1,0 +1,20 @@
+body {
+ display:grid;
+ font-family: Spartan;
+  text-align: center;
+}
+
+p {
+  font-size: 20px;
+}
+button {
+  display:block;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  border: 3px solid black;
+  margin-left: auto;
+  margin-right: auto;
+  color: white;
+  background-color: red;
+}
