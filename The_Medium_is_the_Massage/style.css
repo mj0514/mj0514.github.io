@@ -57,3 +57,9 @@ body{
 	width: 200px;
 	margin-top: -20%;
 }
+
+#theButton{
+	border-radius: 100%;
+	font-style: italic;
+	font-weight: bold;
+}
