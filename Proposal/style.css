@@ -1,0 +1,38 @@
+main{
+  text-align: center;
+}
+
+a {
+    color: black;
+    font-size: 14pt;
+    text-decoration: none;
+    font-family: 'Exo 2', sans-serif;
+    border: 2px solid;
+    padding: 3px;
+}
+
+#title{
+	font-family: 'Zen Kurenaido', sans-serif;
+	font-weight: bold;
+	font-size: 50px;
+	border-bottom: 10px solid black;
+}
+
+#music_img{
+	height: 400px;
+}
+
+#text1{
+	font-size: 25px;
+	margin-left: 20vw;
+	margin-right: 20vw;
+	margin-top: 80px;
+}
+
+#launchpad_img{
+	height: 500px;
+}
+
+#tone_img{
+	height: 400px;
+}
