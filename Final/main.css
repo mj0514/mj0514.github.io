@@ -2,25 +2,26 @@ body {
     padding: 0;
     margin: 0;
     min-height: 100vh;
-    overflow-x: hidden;
-    text-decoration: none;
-    color: #black;
     font-weight: 700;
+    background: linear-gradient(110deg, #FF8700 60%, #000000 60%);
 }
 
 .container {
     max-width: 1200px;
-    margin: 0 auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
     padding: 0 100px;
-    background-color: lightgrey;
+    border-radius: 30px;
+    background-color: dimgrey;
 }
 
 .slidecontainer p {
-    font-family: sans-serif;
+    font-family: 'Ubuntu Mono', monospace;
     font-weight: 700;
     font-style: normal;
     text-align: left;
-    font-size: 30px;
+    font-size: 40px;
     padding: 5px;
 }
 
@@ -52,10 +53,11 @@ body {
     font-weight: 1000;
     border-radius: 2px;
     cursor: pointer;
+    font-family: 'Ubuntu Mono', monospace;
   }
   
 
-.kick, .snare, .clap, .hihat {
+.kick, .kick2, .snare, .clap, .hihat {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -85,6 +87,7 @@ body {
 
 
 .checkContainer {
+	margin-top: 1%;
     display: flex;
     position: relative;
     cursor: pointer;
@@ -120,25 +123,13 @@ body {
     background-color: #ccc;
 }
 
-.kick .checkContainer input:checked ~ .checkmark {
-    background-color: yellow;
-}
-
-.snare .checkContainer input:checked ~ .checkmark {
-    background-color: yellow;
-}
-
-.clap .checkContainer input:checked ~ .checkmark {
-    background-color: yellow;
-}
-
-.hihat .checkContainer input:checked ~ .checkmark {
+.checkContainer input:checked ~ .checkmark {
     background-color: yellow;
 }
 
 .text-label {
-    font-size: 15px;
-    margin-top: 5px;
-    margin-bottom: 2px;
-    color: dimgray;
+    font-size: 20px;
+    margin-top: 2%;
+    color: lightgrey;
+    font-family: 'Ubuntu Mono', monospace;
 }

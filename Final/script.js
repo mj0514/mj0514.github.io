@@ -30,8 +30,9 @@ function showLight(x) {
   
   
 
-//Instrument sound files
+//Sound Files
     const kick = new Tone.Player('https://mj0514.github.io/Final/sounds/kick.wav').toDestination();
+    const kick2 = new Tone.Player('https://mj0514.github.io/Final/sounds/lofi-kick.wav').toDestination();
     const snare = new Tone.Player('https://mj0514.github.io/Final/sounds/snare.wav').toDestination();
     const clap = new Tone.Player('https://mj0514.github.io/Final/sounds/clap.wav').toDestination();
     const hihat = new Tone.Player('https://mj0514.github.io/Final/sounds/hihat.wav').toDestination();
@@ -50,6 +51,9 @@ function showLight(x) {
         
         let kickInputs = document.querySelector(
             `.kick .checkContainer:nth-child(${step + 1}) input`
+            );
+        let kick2Inputs = document.querySelector(
+            `.kick2 .checkContainer:nth-child(${step + 1}) input`
             );
         let snareInputs = document.querySelector(
             `.snare .checkContainer:nth-child(${step + 1}) input`
@@ -70,6 +74,9 @@ function showLight(x) {
       
         if(kickInputs.checked){
             kick.start(time);
+        }
+        if(kick2Inputs.checked){
+            kick2.start(time);
         }
         if(snareInputs.checked){
             snare.start(time);
