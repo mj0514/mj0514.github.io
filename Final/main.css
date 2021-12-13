@@ -1,0 +1,144 @@
+body {
+    padding: 0;
+    margin: 0;
+    min-height: 100vh;
+    overflow-x: hidden;
+    text-decoration: none;
+    color: #black;
+    font-weight: 700;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 100px;
+    background-color: lightgrey;
+}
+
+.slidecontainer p {
+    font-family: sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    text-align: left;
+    font-size: 30px;
+    padding: 5px;
+}
+
+
+.bpmRange {
+    -webkit-appearance: none;
+    width: 100%;
+    height: 15px;
+    border-radius: 5px;
+    background: black;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .5s;
+    transition: opacity .5s;
+    text-align: center;
+  }
+  
+  .bpmRange:hover {
+    opacity: .5;
+  }
+
+  #clear-button {
+    background-color: rgb(29, 29, 29);
+    color: rgb(207, 207, 207);
+    padding: 25px 25px 25px 25px;
+    text-align: left;
+    display: inline-block;
+    font-size: 30px;
+    font-weight: 1000;
+    border-radius: 2px;
+    cursor: pointer;
+  }
+  
+
+.kick, .snare, .clap, .hihat {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 1200px;
+    height: 50px;
+    
+}
+
+.light-marker {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 1200px;
+    height: 50px; 
+}
+
+
+.light {
+    position: absolute;
+    top: 15px;
+    left: -1px;
+    height: 10px;
+    width: 50px;
+    background-color: yellow;
+    border-radius: 100px;
+}
+
+
+.checkContainer {
+    display: flex;
+    position: relative;
+    cursor: pointer;
+    padding: 5px;
+}
+
+.light-marker .checkContainer {
+    display: flex;
+    position: relative;
+    cursor: default;
+    padding: 5px;
+}
+  
+.checkboxClass {
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 50px;
+    width: 50px;
+    background-color: #eee;
+    border-radius: 3px;
+    filter: drop-shadow(3px 3px 1px #00000067);
+}
+
+.checkContainer:hover input ~ .checkmark {
+    background-color: #ccc;
+}
+
+.kick .checkContainer input:checked ~ .checkmark {
+    background-color: yellow;
+}
+
+.snare .checkContainer input:checked ~ .checkmark {
+    background-color: yellow;
+}
+
+.clap .checkContainer input:checked ~ .checkmark {
+    background-color: yellow;
+}
+
+.hihat .checkContainer input:checked ~ .checkmark {
+    background-color: yellow;
+}
+
+.text-label {
+    font-size: 15px;
+    margin-top: 5px;
+    margin-bottom: 2px;
+    color: dimgray;
+}

@@ -1,0 +1,349 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href='main.css'>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tone/14.8.9/Tone.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.2.0/p5.js" integrity="sha512-cuCpFhuSthtmbmQ5JjvU7msRYynRI67jVHsQhTP8RY+H4BC9qa9kQJeHTomV9/QnOWJbDpLFKdbIHtqTomJJug==" crossorigin="anonymous"></script>
+    <title>Online Launchpad</title>
+</head>
+<body>
+    <div>
+      <div id="clear-button">Erase</div>
+    </div>
+    <div class='container'>
+        <div class='drums'>
+            <div class='text-label'>Kick</div>
+            <div class='kick'>
+                <label class="checkContainer">
+                    <input class="checkboxClass" type="checkbox">
+                    <span class="checkmark"></span>
+                </label>
+                <label class="checkContainer">
+                    <input class="checkboxClass" type="checkbox">
+                    <span class="checkmark"></span>
+                </label>
+                <label class="checkContainer">
+                    <input class="checkboxClass" type="checkbox">
+                    <span class="checkmark"></span>
+                </label>
+                <label class="checkContainer">
+                    <input class="checkboxClass" type="checkbox">
+                    <span class="checkmark"></span>
+                </label>
+                <label class="checkContainer">
+                    <input class="checkboxClass" type="checkbox">
+                    <span class="checkmark"></span>
+                </label>
+                <label class="checkContainer">
+                    <input class="checkboxClass" type="checkbox">
+                    <span class="checkmark"></span>
+                </label>
+                <label class="checkContainer">
+                    <input class="checkboxClass" type="checkbox">
+                    <span class="checkmark"></span>
+                </label>
+                <label class="checkContainer">
+                    <input class="checkboxClass" type="checkbox">
+                    <span class="checkmark"></span>
+                </label>
+                <label class="checkContainer">
+                    <input class="checkboxClass" type="checkbox">
+                    <span class="checkmark"></span>
+                </label>
+                <label class="checkContainer">
+                    <input class="checkboxClass" type="checkbox">
+                    <span class="checkmark"></span>
+                </label>
+                <label class="checkContainer">
+                    <input class="checkboxClass" type="checkbox">
+                    <span class="checkmark"></span>
+                </label>
+                <label class="checkContainer">
+                    <input class="checkboxClass" type="checkbox">
+                    <span class="checkmark"></span>
+                </label>
+                <label class="checkContainer">
+                    <input class="checkboxClass" type="checkbox">
+                    <span class="checkmark"></span>
+                </label>
+                <label class="checkContainer">
+                    <input class="checkboxClass" type="checkbox">
+                    <span class="checkmark"></span>
+                </label>
+                <label class="checkContainer">
+                    <input class="checkboxClass" type="checkbox">
+                    <span class="checkmark"></span>
+                </label>
+                <label class="checkContainer">
+                    <input class="checkboxClass" type="checkbox">
+                    <span class="checkmark"></span>
+                </label>
+            </div>
+            <div class='text-label'>Snare</div>
+            <div class='snare'>
+                <label class="checkContainer">
+                    <input class="checkboxClass" type="checkbox">
+                    <span class="checkmark"></span>
+                </label>
+                <label class="checkContainer">
+                    <input class="checkboxClass" type="checkbox">
+                    <span class="checkmark"></span>
+                </label>
+                <label class="checkContainer">
+                    <input class="checkboxClass" type="checkbox">
+                    <span class="checkmark"></span>
+                </label>
+                <label class="checkContainer">
+                    <input class="checkboxClass" type="checkbox">
+                    <span class="checkmark"></span>
+                </label>
+                <label class="checkContainer">
+                    <input class="checkboxClass" type="checkbox">
+                    <span class="checkmark"></span>
+                </label>
+                <label class="checkContainer">
+                    <input class="checkboxClass" type="checkbox">
+                    <span class="checkmark"></span>
+                </label>
+                <label class="checkContainer">
+                    <input class="checkboxClass" type="checkbox">
+                    <span class="checkmark"></span>
+                </label>
+                <label class="checkContainer">
+                    <input class="checkboxClass" type="checkbox">
+                    <span class="checkmark"></span>
+                </label>
+                <label class="checkContainer">
+                    <input class="checkboxClass" type="checkbox">
+                    <span class="checkmark"></span>
+                </label>
+                <label class="checkContainer">
+                    <input class="checkboxClass" type="checkbox">
+                    <span class="checkmark"></span>
+                </label>
+                <label class="checkContainer">
+                    <input class="checkboxClass" type="checkbox">
+                    <span class="checkmark"></span>
+                </label>
+                <label class="checkContainer">
+                    <input class="checkboxClass" type="checkbox">
+                    <span class="checkmark"></span>
+                </label>
+                <label class="checkContainer">
+                    <input class="checkboxClass" type="checkbox">
+                    <span class="checkmark"></span>
+                </label>
+                <label class="checkContainer">
+                    <input class="checkboxClass" type="checkbox">
+                    <span class="checkmark"></span>
+                </label>
+                <label class="checkContainer">
+                    <input class="checkboxClass" type="checkbox">
+                    <span class="checkmark"></span>
+                </label>
+                <label class="checkContainer">
+                    <input class="checkboxClass" type="checkbox">
+                    <span class="checkmark"></span>
+                </label>
+            </div>
+            <div class='text-label'>Clap</div>
+            <div class='clap'>
+                <label class="checkContainer">
+                    <input class="checkboxClass" type="checkbox">
+                    <span class="checkmark"></span>
+                </label>
+                <label class="checkContainer">
+                    <input class="checkboxClass" type="checkbox">
+                    <span class="checkmark"></span>
+                </label>
+                <label class="checkContainer">
+                    <input class="checkboxClass" type="checkbox">
+                    <span class="checkmark"></span>
+                </label>
+                <label class="checkContainer">
+                    <input class="checkboxClass" type="checkbox">
+                    <span class="checkmark"></span>
+                </label>
+                <label class="checkContainer">
+                    <input class="checkboxClass" type="checkbox">
+                    <span class="checkmark"></span>
+                </label>
+                <label class="checkContainer">
+                    <input class="checkboxClass" type="checkbox">
+                    <span class="checkmark"></span>
+                </label>
+                <label class="checkContainer">
+                    <input class="checkboxClass" type="checkbox">
+                    <span class="checkmark"></span>
+                </label>
+                <label class="checkContainer">
+                    <input class="checkboxClass" type="checkbox">
+                    <span class="checkmark"></span>
+                </label>
+                <label class="checkContainer">
+                    <input class="checkboxClass" type="checkbox">
+                    <span class="checkmark"></span>
+                </label>
+                <label class="checkContainer">
+                    <input class="checkboxClass" type="checkbox">
+                    <span class="checkmark"></span>
+                </label>
+                <label class="checkContainer">
+                    <input class="checkboxClass" type="checkbox">
+                    <span class="checkmark"></span>
+                </label>
+                <label class="checkContainer">
+                    <input class="checkboxClass" type="checkbox">
+                    <span class="checkmark"></span>
+                </label>
+                <label class="checkContainer">
+                    <input class="checkboxClass" type="checkbox">
+                    <span class="checkmark"></span>
+                </label>
+                <label class="checkContainer">
+                    <input class="checkboxClass" type="checkbox">
+                    <span class="checkmark"></span>
+                </label>
+                <label class="checkContainer">
+                    <input class="checkboxClass" type="checkbox">
+                    <span class="checkmark"></span>
+                </label>
+                <label class="checkContainer">
+                    <input class="checkboxClass" type="checkbox">
+                    <span class="checkmark"></span>
+                </label>
+            </div>
+            <div class='text-label'>Hihat</div>
+            <div class='hihat'>
+                <label class="checkContainer">
+                    <input class="checkboxClass" type="checkbox">
+                    <span class="checkmark"></span>
+                </label>
+                <label class="checkContainer">
+                    <input class="checkboxClass" type="checkbox">
+                    <span class="checkmark"></span>
+                </label>
+                <label class="checkContainer">
+                    <input class="checkboxClass" type="checkbox">
+                    <span class="checkmark"></span>
+                </label>
+                <label class="checkContainer">
+                    <input class="checkboxClass" type="checkbox">
+                    <span class="checkmark"></span>
+                </label>
+                <label class="checkContainer">
+                    <input class="checkboxClass" type="checkbox">
+                    <span class="checkmark"></span>
+                </label>
+                <label class="checkContainer">
+                    <input class="checkboxClass" type="checkbox">
+                    <span class="checkmark"></span>
+                </label>
+                <label class="checkContainer">
+                    <input class="checkboxClass" type="checkbox">
+                    <span class="checkmark"></span>
+                </label>
+                <label class="checkContainer">
+                    <input class="checkboxClass" type="checkbox">
+                    <span class="checkmark"></span>
+                </label>
+                <label class="checkContainer">
+                    <input class="checkboxClass" type="checkbox">
+                    <span class="checkmark"></span>
+                </label>
+                <label class="checkContainer">
+                    <input class="checkboxClass" type="checkbox">
+                    <span class="checkmark"></span>
+                </label>
+                <label class="checkContainer">
+                    <input class="checkboxClass" type="checkbox">
+                    <span class="checkmark"></span>
+                </label>
+                <label class="checkContainer">
+                    <input class="checkboxClass" type="checkbox">
+                    <span class="checkmark"></span>
+                </label>
+                <label class="checkContainer">
+                    <input class="checkboxClass" type="checkbox">
+                    <span class="checkmark"></span>
+                </label>
+                <label class="checkContainer">
+                    <input class="checkboxClass" type="checkbox">
+                    <span class="checkmark"></span>
+                </label>
+                <label class="checkContainer">
+                    <input class="checkboxClass" type="checkbox">
+                    <span class="checkmark"></span>
+                </label>
+                <label class="checkContainer">
+                    <input class="checkboxClass" type="checkbox">
+                    <span class="checkmark"></span>
+                </label>
+            </div>
+        </div>    
+        <div class='synth'>
+                <div class='light-marker'>
+                    <label class="checkContainer">
+                        <span class="light"></span>
+                    </label>
+                    <label class="checkContainer">
+                        <span class="light"></span>
+                    </label>
+                    <label class="checkContainer">
+                        <span class="light"></span>
+                    </label>
+                    <label class="checkContainer">
+                        <span class="light"></span>
+                    </label>
+                    <label class="checkContainer">
+                        <span class="light"></span>
+                    </label>
+                    <label class="checkContainer">
+                        <span class="light"></span>
+                    </label>
+                    <label class="checkContainer">
+                        <span class="light"></span>
+                    </label>
+                    <label class="checkContainer">
+                        <span class="light"></span>
+                    </label>
+                    <label class="checkContainer">
+                        <span class="light"></span>
+                    </label>
+                    <label class="checkContainer">
+                        <span class="light"></span>
+                    </label>
+                    <label class="checkContainer">
+                        <span class="light"></span>
+                    </label>
+                    <label class="checkContainer">
+                        <span class="light"></span>
+                    </label>
+                    <label class="checkContainer">
+                        <span class="light"></span>
+                    </label>
+                    <label class="checkContainer">
+                        <span class="light"></span>
+                    </label>
+                    <label class="checkContainer">
+                        <span class="light"></span>
+                    </label>
+                    <label class="checkContainer">
+                        <span class="light"></span>
+                    </label>
+                </div>
+        </div>
+        <div class="slidecontainer">
+            <p>BPM: <span id="bpmOutput"></span></p>
+            <input id="bpmRange" type="range" min="0" max="200" value="100" class="slider" step="5">
+        </div>
+    </div>
+
+    
+<canvas id='myCanvas'></canvas>
+</body>
+<script src="script.js"></script>
+</html>
